@@ -23,6 +23,7 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 - Install Nightwatch globally using npm: `npm install nightwatch -g`
 - Create a folder as follows:
 
+```js
 lib/
   ├── selenium-server-standalone.jar
   ├── chromedriver
@@ -30,6 +31,7 @@ custom-commands/
 reports/
   ├── screenshots
 tests/ 
+```
 
 - Selenium Server is a Java application which Nightwatch uses to connect to the various browsers. It runs separately on the machine with the browser you want to test. You will need to have the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit (JDK)</a> installed, minimum required version is 7. You can check this by running `java -version` from the command line.
 - Download the latest version of the `selenium-server-standalone-{VERSION}.jar` file from the <a href="http://selenium-release.storage.googleapis.com/index.html">Selenium downloads</a> page and place it under `lib` folder.
