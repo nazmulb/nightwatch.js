@@ -21,10 +21,36 @@
 
   "test_settings" : {
     "default" : {
+        "launch_url" : "https://mono-qa1.fndev.net",
+        "selenium_port"  : 4444,
+        "selenium_host"  : "localhost",
+        "silent": true,
+        "globals" : {
+            "username" : "provider",
+            "password" : "provider"
+        },
+        "screenshots" : {
+            "enabled" : true,
+            "on_failure" : true,
+            "on_error" : true,
+            "path" : "./reports/screenshots"
+        },
+        "desiredCapabilities": {
+            "browserName": "chrome",
+            "javascriptEnabled": true,
+            "acceptSslCerts": true,
+            "start-maximized": true
+        }
+    },
+    "q2" : {
         "launch_url" : "https://mono-qa2.fndev.net",
         "selenium_port"  : 4444,
         "selenium_host"  : "localhost",
         "silent": true,
+        "globals" : {
+            "username" : "provider",
+            "password" : "provider"
+        },
         "screenshots" : {
             "enabled" : true,
             "on_failure" : true,
