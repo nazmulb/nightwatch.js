@@ -21,7 +21,7 @@ Most of the times, Nightwatch needs to send at least 2 requests to the WebDriver
 
 - Please install <a href="http://nodejs.org">Node.js</a>
 - Install Nightwatch globally using npm: `npm install nightwatch -g`
-- Create a folder as follows:
+- Create folder structure like as follows:
 
 ```js
 lib/
