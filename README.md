@@ -29,8 +29,10 @@ lib/
   ├── chromedriver
 custom-commands/
 reports/
-  ├── screenshots
-tests/ 
+  ├── screenshots/
+tests/
+  ├── learning/
+        ├── test.js
 ```
 
 - Selenium Server is a Java application which Nightwatch uses to connect to the various browsers. It runs separately on the machine with the browser you want to test. You will need to have the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java Development Kit (JDK)</a> installed, minimum required version is 7. You can check this by running `java -version` from the command line.
@@ -113,7 +115,7 @@ module.exports = {
 ## Run your tests
 
 ```js
-nightwatch tests/test.js
+nightwatch tests/learning/test.js
 ```
 
 For more info, please read from <a href="http://nightwatchjs.org/gettingstarted/">nightwatch.org</a>.
