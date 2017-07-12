@@ -12,6 +12,6 @@ module.exports = {
       .pause(1000)
       .assert.containsText('.logo','Field Nation')
       .pause(1000)
-      .end;
+      .end();
   }          
 };
