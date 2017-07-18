@@ -42,7 +42,7 @@
             "start-maximized": true
         }
     },
-    "q2" : {
+    "qa2" : {
         "launch_url" : "https://mono-qa2.fndev.net",
         "selenium_port"  : 4444,
         "selenium_host"  : "localhost",
