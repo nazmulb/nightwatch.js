@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "preinstall": "npm install nightwatch -g"
+    "preinstall": "npm install nightwatch -g",
+    "test": "nightwatch --tag wolc"
   },
   "keywords": [],
   "author": "",

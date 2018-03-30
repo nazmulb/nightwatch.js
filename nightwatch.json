@@ -8,7 +8,7 @@
 
   "selenium" : {
         "start_process" : true,
-        "server_path" : "./lib/selenium-server-standalone-3.4.0.jar",
+        "server_path" : "./lib/selenium-server-standalone-3.11.0.jar",
         "start_session" : true,
         "live_output" : false,
         "log_path" : "reports",
@@ -21,7 +21,7 @@
 
   "test_settings" : {
     "default" : {
-        "launch_url" : "https://mono-qa1.fndev.net",
+        "launch_url" : "https://ui-qa1.fndev.net",
         "selenium_port"  : 4444,
         "selenium_host"  : "localhost",
         "silent": true,
@@ -43,7 +43,7 @@
         }
     },
     "qa2" : {
-        "launch_url" : "https://mono-qa2.fndev.net",
+        "launch_url" : "https://ui-qa1.fndev.net",
         "selenium_port"  : 4444,
         "selenium_host"  : "localhost",
         "silent": true,
